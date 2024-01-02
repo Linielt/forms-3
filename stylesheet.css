@@ -63,11 +63,20 @@ body {
 }
 
 .sidebar {
-    width: 40dvw;
+    background-image: url(leaves.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
 }
 
-.sidebar-img {
-    position: relative;
+.page-content {
+    background-color: white;
+    display: flex;
+    width: 60vw;
+    font-size: 1.5rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .image-credit {
@@ -84,29 +93,20 @@ body {
     margin-block-end: 1rem;
 }
 
-.page-content {
-    display: flex;
-    width: 60dvw;
-    font-size: 1.5rem;
-    flex-direction: column;
-    justify-content: center;
+.seperate-signup-text {
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
-.form-items {
+.main-form {
+    font-family: "Poppins";
     display: flex;
     border: 0;
+    flex-wrap: wrap;
+    width: 80px;
 }
 
 label {
     font-size: 1rem;
     color: lightslategrey;
-}
-
-input {
-    border: #E5E7EB
-}
-
-.form-input-fields {
-    display: flex;
-    flex-direction: column;
 }

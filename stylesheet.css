@@ -47,12 +47,17 @@ table {
 	border-spacing: 0;
 }
 
+* {
+    font-size: 16px;
+}
+
 body {
     display: flex;
     margin: 0;
     padding: 0;
     height: 100dvh;
     width: 100dvw;
+    font-family: sans-serif, "Arial Bold", Gadget, "Arial Black";
 }
 
 .multiline {
@@ -74,6 +79,7 @@ body {
 
 .page-content {
     display: flex;
+    font-size: 2rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;

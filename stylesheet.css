@@ -55,15 +55,11 @@ body {
     width: 100dvw;
 }
 
-.page-content {
-    margin-left: 25%;
-}
-
 .multiline {
     white-space: pre-wrap;
 }
 
-.sidebar {
-    height: 100%;
-    width: 25%;
+.sidebar-img {
+    height: 100dvh;
+    width: auto;
 }

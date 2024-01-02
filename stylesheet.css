@@ -59,16 +59,15 @@ body {
     width: 100dvw;
     font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
     font-weight: bolder;
+    overflow: hidden;
 }
 
-.multiline {
-    white-space: pre-wrap;
+.sidebar {
+    width: 40dvw;
 }
 
 .sidebar-img {
     position: relative;
-    height: 100dvh;
-    width: auto;
 }
 
 .image-credit {
@@ -78,18 +77,33 @@ body {
     bottom: 4px;
 }
 
+.filler-text {
+    width: 60%;
+    box-sizing: border-box;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+}
+
 .page-content {
     display: flex;
+    width: 60dvw;
     font-size: 1.5rem;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .form-items {
     display: flex;
     border: 0;
-    gap: 4rem;
+}
+
+label {
+    font-size: 1rem;
+    color: lightslategrey;
+}
+
+input {
+    border: #E5E7EB
 }
 
 .form-input-fields {

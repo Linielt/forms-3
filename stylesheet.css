@@ -60,6 +60,21 @@ body {
 }
 
 .sidebar-img {
+    position: relative;
     height: 100dvh;
     width: auto;
+}
+
+.image-credit {
+    position: absolute;
+    color: white;
+    left: 142px;
+    bottom: 4px;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

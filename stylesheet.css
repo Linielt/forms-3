@@ -51,6 +51,10 @@ table {
     font-size: 16px;
 }
 
+body, html {
+    height: 100%;
+}
+
 body {
     display: flex;
     margin: 0;
@@ -74,6 +78,7 @@ body {
     display: flex;
     width: 60vw;
     font-size: 1.5rem;
+    margin-right: 120px;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
@@ -99,11 +104,22 @@ body {
 }
 
 .main-form {
-    font-family: "Poppins";
     display: flex;
+    font-family: "Poppins";
     border: 0;
+}
+
+.form-input-fields {
+    display: flex;
     flex-wrap: wrap;
-    width: 80px;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 40%;
 }
 
 label {

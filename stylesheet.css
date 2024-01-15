@@ -52,5 +52,12 @@ a,a:link,a:visited,a:hover,a:active {
 .main-section {
     flex: 5;
     display: flex;
+    flex-direction: column;
+    justify-items: space-around;
     background-color: white;
+}
+
+.main-text {
+    font-family: sans-serif;
+    word-wrap: break-word;
 }

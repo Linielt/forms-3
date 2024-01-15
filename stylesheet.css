@@ -3,6 +3,18 @@
     src: url("Norse-Bold.otf") format("opentype");
 }
 
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+a,a:link,a:visited,a:hover,a:active {
+    color:inherit;
+  -webkit-tap-highlight-color: white;
+    outline: none;
+    border: none;
+}
+
 .content {
     display: flex;
     min-height: 100vh;
@@ -10,28 +22,35 @@
 
 .bg-image-section {
     display: flex;
+    flex-direction: column;
     flex: 3;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background-image: url("leaves.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.bg-image-credit {
+    display: flex;
+    color: white;
+}
+
 .logo {
     display: flex;
-    flex: 1;
+    width: 100%;
+    padding: 16px;
     justify-content: center;
     align-items: center;
+    margin-top: 20%;
     font-family: "Norse Bold";
-    margin-top: 32px;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     font-size: 8rem;
 }
 
 .main-section {
-    display: flex;
     flex: 5;
+    display: flex;
     background-color: white;
 }

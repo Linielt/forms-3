@@ -83,11 +83,37 @@ a,a:link,a:visited,a:hover,a:active {
     font-weight: lighter;
     gap: 64px;
     margin-left: 64px;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 
 input, label {
+    margin-top: 16px;
     display: block;
+}
+
+input {
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-radius: 0.2rem;
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 0;
+    width: 80%;
+    background: none;
+}
+
+input:focus-visible {
+    outline-color: blue;
+}
+
+input[type="password"]:required:invalid {
+    outline-color: red;
+}
+
+label {
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    color: grey;
 }
 
 button {
